@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu de Restaurantes Digitais</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html">
+                <h1>Restaurante do Chef</h1>
+                <p>Sabores que encantam!</p>
+            </a>
+        </header>
+        
+        <h2>Escolha uma opção do nosso menu:</h2>
+        
+        <div class="prato-card" onclick="mostrarPrato(1)">
+            <h3>Hambúrguer Gourmet</h3>
+        </div>
+        
+        <div class="prato-card" onclick="mostrarPrato(2)">
+            <h3>Pizza Margherita</h3>
+        </div>
+        
+        <div class="prato-card" onclick="mostrarPrato(3)">
+            <h3>Salmão Grelhado</h3>
+        </div>
+        
+        <div class="prato-card" onclick="mostrarPrato(4)">
+            <h3>Lasanha Bolonhesa</h3>
+        </div>
+        
+        <div class="prato-card" onclick="mostrarPrato(5)">
+            <h3>Salada Caesar</h3>
+        </div>
+        
+        <div id="resultado" class="resultado">
+            <p style="color: #7f8c8d; font-size: 1.2rem">Clique em uma opção acima para ver os detalhes do prato!</p>
+        </div>
+        
+        <a href="#" class="whatsapp-button" onclick="enviarPorWhatsApp()">Fazer Pedido por WhatsApp
+        </a>
+        <a href="#" class="menu-button" onclick="voltarMenu()">Voltar ao menu</a>
+    </div>
+    
+    <footer class="footer">
+        © 2023 Restaurante do Chef - Todos os direitos reservados.
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

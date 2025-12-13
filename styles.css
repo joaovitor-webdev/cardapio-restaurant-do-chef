@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #215;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 850px;
+    margin: 0 auto;
+    background: #76b;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    background: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-collapse: collapse;
+    transform: translateY(0);
+}
+
+a {
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #eee;
+}
+.prato-card {
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.prato-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.prato-card h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.prato-card p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.prato-card span {
+    font-weight: bold;
+    color: #333;
+}
+
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 5px;
+}
+
+.resultado h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.resultado .preco {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.resultado .descricao {
+    line-height: 1.6;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background: #25d366;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.menu-button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+.whatsapp-button:hover {
+    background: #1da851;
+}
+
+.whatsapp-icon {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        width: 700px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 300px;
+    }
+
+    a {
+        font-size: 1.5rem;
+    }
+}
