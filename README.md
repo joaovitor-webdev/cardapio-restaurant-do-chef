@@ -9,7 +9,7 @@ Aplicação web que permite aos usuários visualizarem itens do cardápio, adici
 ![Screenshot](./screenshot.png)
 
 ### Demo
-Acesse a demo ao vivo aqui: [Link para Demo](https://restaurantedochef.netlify.app)
+Acesse a demo ao vivo aqui: [Link para Demo](https://restaurantedochef.vercel.app)
 
 ## Tecnologias
 - HTML5
@@ -36,4 +36,4 @@ Este projeto não possui package.json nem scripts de npm/yarn; é um app estáti
 ## Autor
 - Nome: João Vitor - Web Dev
 - GitHub: https://github.com/joaovitor-webdev
-- Portfólio: https://joaovitor-webdev.netlify.app
+- Portfólio: https://joaovitor-webdev.vercel.app
